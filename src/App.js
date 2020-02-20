@@ -5,6 +5,7 @@ import './firstComponent.css';
  import ThirdComponent from './learning-react/ThirdComponent';
  import App  from './learning-react/App';
  import Counter from './Counter/counter';
+ import Todo from './TodoApp/todo';
 
 
 //Class Component
@@ -12,10 +13,10 @@ class firstComponent extends Component
 {
   render() {
     return (
-    // <div className="firstComponent">
-    //   <button>Counter</button>
-      <Counter>0</Counter>
-    // </div>
+     <div className="firstComponent">
+    {/* <Counter></Counter> */}
+      <Todo/>
+     </div>
     );
   }
 }
